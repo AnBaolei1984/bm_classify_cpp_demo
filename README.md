@@ -21,7 +21,5 @@
     
 2) 运行
 
-   ./classify_test image imagelist.txt compilation.bmodel 其中，imagelist.txt的每一行是图片的路径。
-   
-    ![2891620612988_ pic_hd](https://user-images.githubusercontent.com/49897975/117597742-cdb03080-b178-11eb-9a0a-26e3992759d0.jpg)
+    ./classify_test 1620470040619267.mp4 resnet18_4_int8.bmodel
 
