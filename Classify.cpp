@@ -74,7 +74,7 @@ ClassifyNet::ClassifyNet(const std::string bmodel, int device_id) {
   // - mean value
   // - scale value (mainly for INT8 calibration)
   float input_scale = net_info_->input_scales[0];
-  input_scale *= 0.017;
+//  input_scale *= 0.017;
   linear_trans_param_.alpha_0 = input_scale;
   linear_trans_param_.beta_0 = -103.94 * input_scale;
   linear_trans_param_.alpha_1 = input_scale;
